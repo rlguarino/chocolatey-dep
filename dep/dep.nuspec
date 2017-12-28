@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dep</id>
+    <version>0.3.2</version>
+    <packageSourceUrl>https://github.com/rlguarino/chocolatey-dep</packageSourceUrl>
+    <owners>Ross Guarino</owners>
+
+    <title>dep</title>
+    <authors>The Go Authors</authors>
+    <projectUrl>https://github.com/golang/dep</projectUrl>
+    <iconUrl>https://github.com/golang/dep/raw/master/docs/img/DigbyShadows.png</iconUrl>
+    <licenseUrl>https://github.com/golang/dep/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/golang/dep</projectSourceUrl>
+    <docsUrl>https://github.com/golang/dep/blob/master/docs/FAQ.md</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/golang-nuts</mailingListUrl>
+    <bugTrackerUrl>https://github.com/golang/dep/issues</bugTrackerUrl>
+    <tags>dep golang go</tags>
+    <summary>Go depdendency management tool</summary>
+    <description>
+    ## Dep
+
+    `dep` is a prototype dependency management tool for Go. It requires Go 1.8 or newer to compile.
+
+    `dep` is the official _experiment_, but not yet the official tool. Check out the [Roadmap](https://github.com/golang/dep/wiki/Roadmap) for more on what this means!
+    </description>
+    <releaseNotes>Release notes for Dep are available at https://github.com/golang/dep/releases/tag/v0.3.2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
