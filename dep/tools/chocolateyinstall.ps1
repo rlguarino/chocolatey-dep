@@ -6,7 +6,7 @@ $packageArgs = @{
   UnzipLocation = $toolsDir
   Url64bit      = "https://github.com/golang/dep/releases/download/v$($env:ChocolateyPackageVersion)/dep-windows-amd64.exe"
   FileFullPath  = "$toolsDir/dep.exe"
-  Checksum64    = '9cd5925582a0291f44281d09e3b1ddb8c555a3dd5097fabca1a5ebd3202de88b'
+  Checksum64    = '61E542FCF5AEBA57129387F3FF1DAE006C13A6F09FBE1FFC2E9867A4555CEE1D'
   ChecksumType64= 'sha256'
 }
 
