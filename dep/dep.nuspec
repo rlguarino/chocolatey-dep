@@ -26,7 +26,7 @@
 
     `dep` is the official _experiment_, but not yet the official tool. Check out the [Roadmap](https://github.com/golang/dep/wiki/Roadmap) for more on what this means!
     </description>
-    <releaseNotes>Release notes for Dep are available at https://github.com/golang/dep/releases/tag/v0.5.0</releaseNotes>
+    <releaseNotes>Release notes for Dep are available at https://github.com/golang/dep/releases/tag/v0.5.4</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
